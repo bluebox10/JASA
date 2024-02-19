@@ -9,23 +9,24 @@
     <script src="main3.js" defer type="module"></script>
 </head>
 <body>
-    <div id="content_container">
-        <div id="form_container">
-            <div id="content_container">
-                <h1>LOGIN</h1>
-            </div>
-            <div id="inner_contentcontainer">
-                <div id="input_container">
-                    <input type="text" id="email" placeholder="Email address">
-                    <input type="text" id="password" placeholder="Password">
-                </div>
-                <div id="button_container">
-                    <button id="login">login</button>
-                    <button id="register">Register</button>
-                    <button id="login_with_g">Login with Google</button>
-                </div>
-            </div>
+    <div class="inner_contentcontainer">
+        <h1 class="header">LOGIN</h1>
+        <div id="input_container">
+            <input type="text" id="email" placeholder="Email address">
+            <input type="text" id="password" placeholder="Password">
+        </div>
+        <div id="button_container">
+            <button id="login">login</button>
+            <button id="register">Register</button>
+        </div>
+        
+        <div class="googleclass">
+            <button id="login_with_g">
+                <img class="google" src="google_300221.png" alt="">Login With Google
+            </button>
         </div>
     </div>
+   
 </body>
+<link rel="stylesheet" href="stylelogin.css">
 </html>
