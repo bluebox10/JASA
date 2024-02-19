@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            font-family: monospace;
+            background: url(aboutbackground.svg);
+            background-size: cover;
+            background-position: center;
+            
+
+        }
+        img{
+            width: 120px;
+            height: auto;
+        }
+        .wrapper{
+            display: flex;
+            align-items: center; 
+            gap: 40px;   
+        }
+
+        @media (max-width: 768px) {
+            .wrapper{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+    <div class="wrapper 1">
+        <img src="johan.jpeg" alt="">
+        <div class="text">Johan Sam Sanil</div>
+        <div class="work">Database Mangement</div>
+    </div>
+    <div class="wrapper 2">
+        <img src="Adi.jpeg" alt="">
+        <div class="text">Adithyan Ajish</div>
+        <div class="work">Front End / UI&UX</div>
+    </div>
+    <div class="wrapper 3">
+        <img src="sam.jpeg" alt="">
+        <div class="text">Samarth Saxena</div>
+        <div class="work">User Authentication</div>
+    </div>
+    <div class="wrapper 4">
+        <img src="Amri.jpeg" alt="">
+        <div class="text">Amrithesh S Menon</div>
+        <div class="work">Implenation Js and Database</div>
+    </div>
+
+    
+    
+  
+
+
+    
+</body>
+</html>

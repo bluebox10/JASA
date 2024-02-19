@@ -1,368 +1,403 @@
+
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 
 
 .container1{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 30px;
+  height: 2rem;
+  font-family:monospace;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  
  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 50px;
-    height: 4rem;
-    font-family:monospace;
-    
 }
 
 .container1 a{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: 500;
-    position: relative;
-    padding: 0 20px;
-    color: #000000;
-    font-family:monospace;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0 10px;
+  color: #000000;
+  font-family:monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container2{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 50px;
-    height: 4rem;
-    position: relative;
-
-
+.abouttop{
+  margin: 0 auto;
 }
 
-.container2 a{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: 500;
-    position: relative;
-    padding: 0 20px;
-    color: #5c5a5a;
-}
+
 
 
 /* ************************************** */
 .main{
-    width: 100%;
-    height: 100vh;
-    background-color: aliceblue;
-    text-align: center;
-    background-image: url('background.svg');
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  text-align: center;
+  background-image: url('background.svg');
+  background-size: cover;
+  background-position: center;
 
 }
 
 .header{
-    margin: 0 auto;
-    position: relative;
-    top : 15%;
-    font-size: 5rem;
-    color: #5c5a5a;
-    font-family:monospace;
+  margin: 0 auto;
+  position: relative;
+  top : 15%;
+  font-size: 5rem;
+  color: #5c5a5a;
+  font-family:monospace;
+  text-align: center;
 }
 
 .source{
-    margin: 0 auto;
-    position: relative;
-    top : 100px;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin: auto;
-    top: 30%;
-   
+  margin: 0 auto;
+  position: relative;
+  top : 100px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: auto;
+  top: 30%;
+ 
 }
 
 .source a{
-    text-decoration: none;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 500;
-    position: relative;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 70%;
-    color: #5c5a5a;
-    font-family:monospace;
+  text-decoration: none;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70%;
+  color: #5c5a5a;
+  font-family:monospace;
+  text-align: center;
 
 
 }
 /* ************************************** */
 #violence{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    background: #ffdddd;
-    background-image: url('background2.svg');
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: #ffdddd;
+  background-image: url('background2.svg');
+  background-size: cover;
+  background-position: center;
 
 
 }
 
 .cybersource1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    top: 40%;
-    font-size:3rem;
-    right: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 40%;
+  font-size:3rem;
+
 }
 .cybersource1 a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family:monospace;
+  text-decoration: none;
+  color: #ffffff;
+  font-family:monospace;
 }
 
 .header2{
-    position: relative;
-    top: 6rem;
-    font-family:monospace;
-    font-size: 8rem;
-    color: #ffffff;
+  position: relative;
+  top: 6rem;
+  font-family:monospace;
+  font-size: 8rem;
+  color: #ffffff;
 
 }
 
 /* ************************************** */
 
 #cyber{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    position: relative;
-    background: #d4edf2;
-    background-image: url('background3.svg');
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background: #d4edf2;
+  background-image: url('background3.svg');
+  background-size: cover;
+  background-position: center;
 }
 .cybersource2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    top: 30%;
-    font-size:3rem;
-    font-family:monospace;
-    padding: 5px;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 30%;
+  font-size:3rem;
+  font-family:monospace;
+  padding: 5px;
+  
 
 }
 
 .cybersource2 a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family:monospace;
-    
+  text-decoration: none;
+  color: #ffffff;
+  font-family:monospace;
+  
 }
 
 .header3{
-    position: relative;
-    top: 6rem;
-    font-size: 8rem;
-    font-family:monospace;
-    color: #ffffff;
+  position: relative;
+  top: 6rem;
+  font-size: 8rem;
+  font-family:monospace;
+  color: #ffffff;
 }
 /* ************************************** */
 #fraud{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    position: relative;
-    background-image: url('background4.svg');
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background-image: url('background4.svg');
+  background-size: cover;
+  background-position: center;
 
 }
 .cybersource3{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    top: 30%;
-    font-size:3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 30%;
+  font-size:3rem;
 }
 
 .cybersource3 a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family:monospace;
+  text-decoration: none;
+  color: #ffffff;
+  font-family:monospace;
 }
 .header4{
-    position: relative;
-    top: 6rem;
-    font-family:monospace;
-    font-size: 8rem;
-    color: #ffffff;
+  position: relative;
+  top: 6rem;
+  font-family:monospace;
+  font-size: 8rem;
+  color: #ffffff;
 }
 /* ************************************** */
 
 #about{
-    width: 100%;
-    height: 10vh;
-    background-color: #f2f2f2;
-    text-align: center;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family:monospace;
-
-
+  width: 100%;
+  height: 10vh;
+  background-color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family:monospace;
+  color: black;
+}
+#about a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0 10px;
+  color: #000000;
+  font-family:monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* ************************************** */
 /* ********* MAIN BUTTON  *********** */
 .source a {
-    position: relative;
-    display: inline-block;
-    border: 2%;
+  position: relative;
+  display: inline-block;
+  border: 2%;
 
-    padding: 20px;
-    margin: 5px;
-    transition: transform 0.8s ease; 
-  }
-  
-  .source a:hover {
-    transform: translateY(-5px);
-    border-radius: 7%;
-    background-color: #86c1f5;
-    color: #000;
-    border-color: #999;
+  padding: 20px;
+  margin: 5px;
+  transition: transform 0.8s ease; 
+}
+
+.source a:hover {
+  transform: translateY(-5px);
+  border-radius: 7%;
+  background-color: #86c1f5;
+  color: #000;
+  border-color: #999;
 }
 
 /* ***********violenceviolenceviolence*************************** */
 .cybersource1 {
-    position: relative;
-  }
-  
-  .cybersource1 .wrapper {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .cybersource1 .fraudepic {
-    height: 100px;
-    width: auto;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1); 
-  }
-  .cybersource1 .fraudepic {
-   
-  
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
-  }
-  
-  .cybersource1 .wrapper:hover .fraudepic {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(2.1); 
-  } 
- /* **********cybercybercyber**************************** */ 
+  position: relative;
+}
 
- .cybersource2 {
-    position: relative;
-  }
-  
-  .cybersource2 .wrapper {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .cybersource2 .fraudepic {
-    height: 100px;
-    width: auto;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1); 
-  }
-  .cybersource2 .fraudepic {
-   
-  
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
-  }
-  
-  .cybersource2 .wrapper:hover .fraudepic {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(2.3); 
-  }
-  
+.cybersource1 .wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
 
- /* ************FraudFraudFraud************************** */ 
+.cybersource1 .fraudepic {
+  height: 100px;
+  width: auto;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1); 
+}
+.cybersource1 .fraudepic {
+ 
 
- .cybersource3 {
-    position: relative;
-  }
-  
-  .cybersource3 .wrapper {
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .cybersource3 .fraudepic {
-    height: 100px;
-    width: auto;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1); 
-  }
-  .cybersource3 .fraudepic {
-   
-  
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
-  }
-  
-  .cybersource3 .wrapper:hover .fraudepic {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(2); 
-  }
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.cybersource1 .wrapper:hover .fraudepic {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(2.1); 
+} 
+/* **********cybercybercyber**************************** */ 
+
+.cybersource2 {
+  position: relative;
+}
+
+.cybersource2 .wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.cybersource2 .fraudepic {
+  height: 100px;
+  width: auto;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1); 
+}
+.cybersource2 .fraudepic {
+ 
+
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.cybersource2 .wrapper:hover .fraudepic {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(2.3); 
+}
 
 
-  
+/* ************FraudFraudFraud************************** */ 
+
+.cybersource3 {
+  position: relative;
+}
+
+.cybersource3 .wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.cybersource3 .fraudepic {
+  height: 100px;
+  width: auto;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1); 
+}
+.cybersource3 .fraudepic {
+ 
+
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.cybersource3 .wrapper:hover .fraudepic {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(2); 
+}
 
 
-  
-  
-  
 /************************************** */
-.container1 {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 10px;
-    z-index: 100;
+
+
+
+
+/************************ */
+@media (max-width: 768px) {
+  /* Adjust styles for mobile phones */
+  .container1, .container2 {
+      display: none;
   }
+  .header, .header2, .header3, .header4 {
+      font-size: 3rem;
+      position: relative;
+      top: 20%;
+      text-align: center;
+  }
+  .source a {
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+  }
+  .source{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 25%;
+      margin: auto;
+      font-size: 1.5rem;
+  }
+
+  .cybersource1, .cybersource2, .cybersource3 {
+      
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      position: relative;
+      top: 30%;
+      font-size: 1.5rem;
+  }
+}
 

@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        span {
-            font-weight: bold;
-            font-family: monospace;
-        }
-        input {
-            margin-bottom: 10px;
-            padding: 90px;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-weight: bold;
-            font-family: monospace;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: url(backgroundproxy.svg);
+      font-family: Arial, sans-serif;
+      background-color: #bfbdbd;
+      background-size: cover;
+      background-position: center;
+      
+    }
+    .containersmall {
+      max-width: 300px;
+      margin: 50px auto;
+      padding:40px;
+      width: 80vw;
+      background: #fff;
 
-        }
-        .containersmall{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            position: relative;
-            margin: 0 auto;
-            top:70px;
-
-        }
-    </style>
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    span {
+      font-weight: bold;
+      font-family: monospace;
+      display: block;
+      margin: 10px 0;
+      text-align: left;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical; /* Allow vertical resizing */
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical; /* Allow vertical resizing */
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
 </head>
-
-
 <body>
-    <div class="containersmall">
-        <span>Attacker</span>
-        <input type="text" name="attacker" id="attacker">
-        <span>Problem</span>
-        <input type="text" name="problem" id="problem">
-        <button>Submit</button>
-    </div>
+  <div class="containersmall">
+    <span>Attacker</span>
+    <input type="text" name="attacker" id="attacker" style="font-size: 18px;">
+    <span>Problem</span>
+    <textarea name="problem" id="problem" rows="3"></textarea>
+    <button>Submit</button>
+  </div>
 </body>
 </html>

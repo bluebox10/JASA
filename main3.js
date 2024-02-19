@@ -23,7 +23,7 @@ signInWithEmailAndPassword(auth, email, password)
 .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    window.location.href="../logged.html";
+    window.location.href="../index.html";
 })
 .catch((error) => {
     const errorCode = error.code;
