@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission</title>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <style>
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url(loginbackground.svg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    .container {
+      border: 2px solid #0066FF; 
+      width: 400px;
+      padding: 20px;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 60px 70px;
+    }
+    
+    .container input[type="file"],
+    .container input[type="text"] {
+      margin-bottom: 10px;
+      padding: 8px;
+      border: 1px solid #0066FF;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    .container input[type="submit"] {
+      padding: 10px;
+      border: none;
+      background-color: #0066FF;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .container input[type="submit"]:hover {
+      background-color: #0055CC;
+    }
+
+    .container span {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .container button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #0066FF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+
+  .container button[type="submit"]:hover {
+    background-color: #0055CC;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="7d521052-55c9-402f-b662-ef246599cd32">
+        <div class="Name">
+          <span>Name</span>
+          <input type="text" name="name" id="nameInput" required>
+        </div>
+        <div class="Problem">
+          <span>Problem</span>
+          <input type="text" name="problem" id="problemInput" required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+  
+    <script>
+      function submitForm() {
+        
+        document.querySelector('form').submit();
+      }
+    </script>
+  </body>
+  </html>

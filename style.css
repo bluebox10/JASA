@@ -102,6 +102,71 @@ html{
 
 
 }
+/* ***********panicpanicpanic********************* */
+.panic{
+  
+  text-align: center;
+  background: #ffdddd;
+  position: relative;
+  top: 45%;
+  padding: 20px 30px;
+  font-family:monospace;
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  color: #5c5a5a;
+  margin: 0 auto;
+  border: none;
+}
+.panic:hover {
+  background-color: #ffaaaa;
+  transform: translateY(-5px);
+  color: #000;
+  border: none;
+}
+
+.panictext{
+  position: relative;
+  top: 38%;
+  color: #181818;
+  font-family:monospace;
+  text-align: center;
+  font-size: 1.9rem;
+}
+.help{
+
+  position: relative;
+  display: flex;
+  gap: 44px;
+  justify-content: center;
+  flex-direction: column;
+  top: 38%;
+  color: #000000;
+  font-family:monospace;
+  text-align: center;
+  font-size: 2rem;
+
+  
+}
+
+.panic a{
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70%;
+  color: #5c5a5a;
+  font-family:monospace;
+  text-align: center;
+
+}
+
 /* ************************************** */
 #violence{
   width: 100%;
@@ -398,6 +463,17 @@ html{
       position: relative;
       top: 30%;
       font-size: 1.5rem;
+  }
+
+  .help{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 30%;
+      font-size: 1.2rem;
+  }
+  .panictext{
+      color: #ffffff;
   }
 }
 
